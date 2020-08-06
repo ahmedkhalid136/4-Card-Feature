@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6ff;
+}
+/***************************** title ********************************/
+.title {
+  width: 300px;
+  height: 70px;
+  font-size: 24px;
+  margin: 50px auto 0 auto;
+}
+.light-text {
+  font-weight: 300;
+}
+.heavy-text {
+  font-weight: 900;
+}
+
+/**************************** tagline *******************************/
+.tagline {
+  height: 70px;
+  width: 350px;
+  font-weight: 100;
+  font-size: 12px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+/**************************** box ****************************************/
+.container {
+  position: relative;
+  height: 500px;
+}
+
+.box {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-style: solid none none none;
+  border-radius: 5px;
+  box-shadow: 1 px 1px 1px #5b5656;
+}
+
+.top-box {
+  border-color: #dd2c00;
+  position: absolute;
+  left: 40%;
+}
+
+.left-box {
+  border-color: #00b7c2;
+  position: absolute;
+  left: 18%;
+  top: 20%;
+}
+
+.right-box {
+  border-color: #3282b8;
+  position: absolute;
+  right: 18%;
+  top: 20%;
+}
+
+.bottom-box {
+  border-color: #f7d695;
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+}
+
+.box-title {
+  font-weight: 800;
+  display: block;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.box-text {
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 15px;
+}
+/*************************** images ***************************************/
+img {
+  margin-left: 220px;
+  margin-top: 20px;
+}
