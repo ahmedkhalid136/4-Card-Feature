@@ -34,8 +34,8 @@ body {
 
 .box {
   background-color: white;
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   border-style: solid none none none;
   border-radius: 5px;
   box-shadow: 1 px 1px 1px #5b5656;
@@ -44,28 +44,28 @@ body {
 .top-box {
   border-color: #dd2c00;
   position: absolute;
-  left: 40%;
+  right: 40%;
 }
 
 .left-box {
   border-color: #00b7c2;
   position: absolute;
-  left: 18%;
-  top: 20%;
+  left: 21%;
+  top: 23%;
 }
 
 .right-box {
   border-color: #3282b8;
   position: absolute;
-  right: 18%;
-  top: 20%;
+  right: 20%;
+  top: 23%;
 }
 
 .bottom-box {
   border-color: #f7d695;
   position: absolute;
-  bottom: 15%;
-  left: 40%;
+  top: 55%;
+  right: 40%;
 }
 
 .box-title {
@@ -84,4 +84,8 @@ body {
 img {
   margin-left: 220px;
   margin-top: 20px;
+}
+/************************* attributon *************************************/
+.attribution {
+  margin-top: 200px;
 }
